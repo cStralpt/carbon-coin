@@ -1,5 +1,4 @@
 ReadableStreamDefaultController;
-import React from "react";
 import {
   Button,
   Link,
@@ -7,18 +6,14 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  NavbarMenu,
-  NavbarMenuItem,
-  NavbarMenuToggle,
 } from "@nextui-org/react";
-import Image from "next/image";
 
 export default function Header() {
   return (
     <header>
       <Navbar shouldHideOnScroll>
         <NavbarBrand>
-          <p className="font-bold text-inherit">ACME</p>
+          <p className="font-bold text-inherit">CarbonCoin</p>
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem>
@@ -38,12 +33,9 @@ export default function Header() {
           </NavbarItem>
         </NavbarContent>
         <NavbarContent justify="end">
-          <NavbarItem className="hidden lg:flex">
-            <Link href="#">Login</Link>
-          </NavbarItem>
           <NavbarItem>
             <Button as={Link} color="primary" href="#" variant="flat">
-              Sign Up
+              CONNECT
             </Button>
           </NavbarItem>
         </NavbarContent>

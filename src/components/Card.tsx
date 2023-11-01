@@ -43,14 +43,14 @@ export function CardPrimary() {
     </Card>
   );
 }
-export function CardSecondary({ text }: { text: string }) {
+export function CardSecondary({ text, img }: { text: string; img: string }) {
   return (
     <Card isFooterBlurred radius="lg" className="border-none">
       <Image
         alt="Woman listing to music"
         className="object-cover"
         height={400}
-        src="/hero-card-complete.jpeg"
+        src={img}
         width={400}
       />
       <CardFooter className="justify-center before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10 hover:top-1">
