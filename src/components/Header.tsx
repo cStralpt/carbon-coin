@@ -7,6 +7,7 @@ import {
   NavbarContent,
   NavbarItem,
 } from "@nextui-org/react";
+import { ConnectToWalletButton } from "./ConnectToWalletButton";
 
 export default function Header() {
   return (
@@ -34,9 +35,10 @@ export default function Header() {
         </NavbarContent>
         <NavbarContent justify="end">
           <NavbarItem>
-            <Button as={Link} color="primary" href="#" variant="flat">
-              CONNECT
-            </Button>
+            {/* <Button as={Link} color="primary" href="#" variant="flat"> */}
+            {/*   CONNECT */}
+            {/* </Button> */}
+            <ConnectToWalletButton />
           </NavbarItem>
         </NavbarContent>
       </Navbar>
