@@ -72,7 +72,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <div className="flex flex-col items-center w-full gap-28">
-        <div className="flex flex-col justify-center items-center gap-2 bg-[url('/forest-trees2.jpg')] bg-cover bg-gradient-to-r- from-cyan-500 to-blue-500 to-transparent- w-full max-w-5xl- py-24 text-black/80">
+        <div className="flex flex-col justify-center items-center gap-2 bg-[url('/forest-trees2.jpg')] bg-cover bg-gradient-to-r- from-cyan-500 to-blue-500 to-transparent- w-full max-w-5xl- py-24 text-black/80 p-2">
           <span className="w-full sm:max-w-sm max-w-xs aspect-square border-4 border-emerald-700 rounded-full grid place-items-center">
             <p
               className={`text-emerald-900 font-bold sm:text-4xl text-2xl ${poppinsExtrabold.className}`}
